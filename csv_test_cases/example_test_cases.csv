@@ -1,0 +1,3 @@
+api_name,jmx_template,csv_data,csv_vars,domain,path,port,method,json_body
+post-example-api,example-post.jmx,"example-accts-file.csv","cust,acct",example-host.com,"/example/path",,POST,"{""acctNbrExampleKey"":""${acct}""}"
+get-example-name,example-get.jmx,"example-accts-file.csv","cust,acct",example-host.com,"/example/path/${cust}/custExample",10000,GET
